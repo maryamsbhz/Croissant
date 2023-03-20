@@ -1,0 +1,35 @@
+:root{
+  --text-align:center;
+}
+
+@media(min-width:672px){
+  p {
+    font-size: 34px;
+  }
+}
+
+
+body{
+ background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+ margin: 40px 50px;
+}
+
+
+h1,h2{
+  text-align: var(--text-align);
+  margin-bottom:20px ;
+  font-family: 'Pacifico', cursive;
+}
+
+img{
+  display: block;
+  max-width:500px;
+  border-radius: 10px;
+  box-shadow: 5px;
+  margin:50px auto;
+}
+p{
+  font-size: 14px;
+  text-align: var(--text-align);
+  margin-bottom: 60px;
+}
